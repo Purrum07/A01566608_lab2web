@@ -1,6 +1,3 @@
-/**
- * 
- */
 package mx.tec.web.lab.manager;
 
 import java.util.List;

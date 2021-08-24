@@ -131,7 +131,11 @@ public class Product implements Serializable{
 	public void setChildSkus(List<Sku> childSkus) {
 		this.childSkus = childSkus;
 	}
-
+	
+	/**
+	 * toString method for Product entity
+	 * @return The complete Product as a String
+	 */
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", description=" + description + ", childSkus=" + childSkus
